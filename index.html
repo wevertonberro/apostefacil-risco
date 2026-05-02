@@ -80,8 +80,8 @@ tfoot td{border-top:1px solid #2e3344;font-weight:600;background:var(--bg3)}
 <body>
 <div class="header">
   <div class="logo">APOSTEFACIL.BET · CONTROLE DE RISCO</div>
-  <div style="font-size:12px;color:var(--text2);font-family:monospace">Semana 26–30/04/2026</div>
-  <div class="hbadge"><div class="dot"></div>Semana +R$ 11.158</div>
+  <div style="font-size:12px;color:var(--text2);font-family:monospace">26/04–01/05/2026</div>
+  <div class="hbadge"><div class="dot"></div>Semana +R$ 14.419</div>
 </div>
 <div class="container">
   <div class="main-nav">
@@ -91,17 +91,18 @@ tfoot td{border-top:1px solid #2e3344;font-weight:600;background:var(--bg3)}
     <button class="mbtn" onclick="showView('d28',this)">28/04/2026</button>
     <button class="mbtn" onclick="showView('d29',this)">29/04/2026</button>
     <button class="mbtn" onclick="showView('d30',this)">30/04/2026</button>
+    <button class="mbtn" onclick="showView('d01',this)">01/05/2026</button>
   </div>
 
   <!-- SEMANA -->
   <div id="view-semana" class="mview active">
     <div class="kgrid">
-      <div class="kpi"><div class="klabel">Saldo semana</div><div class="kval pos">+R$ 11.158</div><div class="ksub">5 dias</div></div>
-      <div class="kpi"><div class="klabel">Total apostado</div><div class="kval mono">R$ 332.148</div></div>
-      <div class="kpi"><div class="klabel">Total pago</div><div class="kval mono">R$ 320.990</div></div>
-      <div class="kpi"><div class="klabel">Margem média</div><div class="kval pos">3,4%</div><div class="ksub">meta: 5–8%</div></div>
-      <div class="kpi"><div class="klabel">Total apostas</div><div class="kval mono">3.685</div></div>
-      <div class="kpi"><div class="klabel">Alertas ativos</div><div class="kval neg">8</div></div>
+      <div class="kpi"><div class="klabel">Saldo semana</div><div class="kval pos">+R$ 14.419</div><div class="ksub">6 dias</div></div>
+      <div class="kpi"><div class="klabel">Total apostado</div><div class="kval mono">R$ 403.788</div></div>
+      <div class="kpi"><div class="klabel">Total pago</div><div class="kval mono">R$ 389.369</div></div>
+      <div class="kpi"><div class="klabel">Margem média</div><div class="kval pos">3,6%</div><div class="ksub">meta: 5–8%</div></div>
+      <div class="kpi"><div class="klabel">Total apostas</div><div class="kval mono">4.313</div></div>
+      <div class="kpi"><div class="klabel">Alertas ativos</div><div class="kval neg">3</div></div>
     </div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:10px;margin-bottom:20px">
       <div class="dc"><div class="dlabel">26/04</div><div class="dval neg">−R$ 8.433</div></div>
@@ -109,7 +110,8 @@ tfoot td{border-top:1px solid #2e3344;font-weight:600;background:var(--bg3)}
       <div class="dc"><div class="dlabel">28/04</div><div class="dval pos">+R$ 11.161</div></div>
       <div class="dc"><div class="dlabel">29/04</div><div class="dval pos">+R$ 3.150</div></div>
       <div class="dc"><div class="dlabel">30/04</div><div class="dval pos">+R$ 2.572</div></div>
-      <div class="dc" style="border:1px solid var(--green)"><div class="dlabel">Saldo semana</div><div class="dval pos">+R$ 11.158</div></div>
+      <div class="dc"><div class="dlabel">01/05</div><div class="dval pos">+R$ 3.261</div></div>
+      <div class="dc" style="border:1px solid var(--green)"><div class="dlabel">Saldo</div><div class="dval pos">+R$ 14.419</div></div>
     </div>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:20px">
       <div class="section" style="margin-bottom:0">
@@ -138,28 +140,26 @@ tfoot td{border-top:1px solid #2e3344;font-weight:600;background:var(--bg3)}
       <div class="shdr"><div class="stitle">Ranking acumulado — apostadores que mais custaram à casa</div></div>
       <table><thead><tr><th>#</th><th>ext_player_id</th><th>Usuário</th><th class="r">Resultado</th><th class="r">Dias</th><th class="r">Win%</th><th>Esportes</th><th>Status</th></tr></thead>
       <tbody>
-        <tr><td>1</td><td class="mono muted">3548</td><td style="font-weight:600">AARON</td><td class="r neg">−R$ 3.968</td><td class="r">3/4</td><td class="r">~50%</td><td style="font-size:11px">Tennis · Volleyball · CS2</td><td><span class="badge br">Sharp crítico</span></td></tr>
-        <tr><td>2</td><td class="mono muted">116480</td><td style="font-weight:600">DANILO</td><td class="r neg">−R$ 3.508</td><td class="r">4/4</td><td class="r">~85%</td><td style="font-size:11px">Soccer · variados</td><td><span class="badge br">5 dias seguidos</span></td></tr>
-        <tr><td>3</td><td class="mono muted">63489</td><td style="font-weight:600">ISMAEL</td><td class="r neg">−R$ 3.042</td><td class="r">1/4</td><td class="r">100%</td><td style="font-size:11px">Soccer odds altas</td><td><span class="badge br">Sharp crítico</span></td></tr>
-        <tr><td>4</td><td class="mono muted">63824</td><td style="font-weight:600">RENAN</td><td class="r neg">−R$ 2.730</td><td class="r">3/4</td><td class="r">~65%</td><td style="font-size:11px">Soccer · ligas asiáticas</td><td><span class="badge by">Monitorar</span></td></tr>
-        <tr><td>5</td><td class="mono muted">62980</td><td style="font-weight:600">MARCOS</td><td class="r neg">−R$ 1.984</td><td class="r">2/4</td><td class="r">~90%</td><td style="font-size:11px">Soccer · over/under</td><td><span class="badge by">Alto volume</span></td></tr>
-        <tr><td>6</td><td class="mono muted">63527</td><td style="font-weight:600">Ana</td><td class="r neg">−R$ 1.785</td><td class="r">1/4</td><td class="r">14%</td><td style="font-size:11px">Soccer odds altas</td><td><span class="badge br">Sharp crítico</span></td></tr>
-        <tr><td>7</td><td class="mono muted">113639</td><td style="font-weight:600">NEMESIO</td><td class="r neg">−R$ 1.321</td><td class="r">3/4</td><td class="r">~80%</td><td style="font-size:11px">eSoccer odds altas</td><td><span class="badge by">Monitorar</span></td></tr>
-        <tr><td>8</td><td class="mono muted">55756</td><td style="font-weight:600">BRUNO</td><td class="r neg">−R$ 1.395</td><td class="r">1/4</td><td class="r">20%</td><td style="font-size:11px">Soccer odds altas</td><td><span class="badge br">Sharp crítico</span></td></tr>
-        <tr><td>9</td><td class="mono muted">63467</td><td style="font-weight:600">THAIS</td><td class="r neg">−R$ 1.260</td><td class="r">1/4</td><td class="r">14%</td><td style="font-size:11px">Soccer odds altas</td><td><span class="badge br">Sharp crítico</span></td></tr>
-        <tr><td>10</td><td class="mono muted">66558</td><td style="font-weight:600">GLAUCIO</td><td class="r neg">−R$ 957</td><td class="r">2/4</td><td class="r">~55%</td><td style="font-size:11px">Soccer · Champions</td><td><span class="badge by">Alto volume</span></td></tr>
+        <tr><td>1</td><td class="mono muted">3548</td><td style="font-weight:600">AARON</td><td class="r neg">−R$ 3.968</td><td class="r">3/6</td><td class="r">~50%</td><td style="font-size:11px">Tennis · Volleyball · CS2 · Valorant</td><td><span class="badge bg">Recreativo — lucrativo histórico</span></td></tr>
+        <tr><td>2</td><td class="mono muted">86787</td><td style="font-weight:600">NADIM</td><td class="r neg">−R$ 5.103</td><td class="r">5 dias</td><td class="r">82%</td><td style="font-size:11px">over/under ligas menores</td><td><span class="badge br">Sharp — restringir urgente</span></td></tr>
+        <tr><td>3</td><td class="mono muted">116480</td><td style="font-weight:600">DANILO</td><td class="r neg">−R$ 949</td><td class="r">5/6</td><td class="r">~70%</td><td style="font-size:11px">Soccer · variados</td><td><span class="badge by">Novo — monitorar</span></td></tr>
+        <tr><td>4</td><td class="mono muted">63824</td><td style="font-weight:600">RENAN</td><td class="r pos">+R$ 390</td><td class="r">5/6</td><td class="r">~43%</td><td style="font-size:11px">Soccer · alto volume</td><td><span class="badge by">Neutro — monitorar stake</span></td></tr>
+        <tr><td>5</td><td class="mono muted">62599</td><td style="font-weight:600">ANDREY</td><td class="r pos">+R$ 6.965</td><td class="r">6/6</td><td class="r">14%</td><td style="font-size:11px">Múltiplos esportes</td><td><span class="badge bg">Muito lucrativo</span></td></tr>
+        <tr><td>6</td><td class="mono muted">60767</td><td style="font-weight:600">SERGIO</td><td class="r pos">+R$ 1.224</td><td class="r">5/6</td><td class="r">1%</td><td style="font-size:11px">Múltiplos — odds altas</td><td><span class="badge bg">Muito lucrativo</span></td></tr>
+        <tr><td>7</td><td class="mono muted">113639</td><td style="font-weight:600">NEMESIO</td><td class="r pos">+R$ 2.251</td><td class="r">3/6</td><td class="r">33%</td><td style="font-size:11px">eSoccer odds altas</td><td><span class="badge bg">Positivo para a casa</span></td></tr>
+        <tr><td>8</td><td class="mono muted">102415</td><td style="font-weight:600">RAFAEL</td><td class="r neg">−R$ 2.322</td><td class="r">1/6</td><td class="r">100%</td><td style="font-size:11px">Tennis eventos suspeitos</td><td><span class="badge br">Novo alerta — investigar</span></td></tr>
+        <tr><td>9</td><td class="mono muted">30171</td><td style="font-weight:600">VINICIUS</td><td class="r neg">−R$ 276</td><td class="r">6/6</td><td class="r">33%</td><td style="font-size:11px">Múltiplos esportes</td><td><span class="badge by">Levemente negativo</span></td></tr>
+        <tr><td>10</td><td class="mono muted">66558</td><td style="font-weight:600">GLAUCIO</td><td class="r neg">−R$ 957</td><td class="r">3/6</td><td class="r">~55%</td><td style="font-size:11px">Soccer · Champions</td><td><span class="badge by">Alto volume</span></td></tr>
       </tbody></table>
     </div>
     <div class="section">
       <div class="shdr"><div class="stitle">Alertas ativos da semana</div></div>
       <div style="padding:16px 20px">
-        <div class="alert ar"><div class="atitle">AARON (3548) — sharp em 3 esportes, −R$ 3.968 em 3 dias</div>Tennis, Volleyball e CS2. Apostas repetidas no mesmo mercado ao vivo. Limite de stake imediato.</div>
-        <div class="alert ar"><div class="atitle">DANILO (116480) — 5 dias consecutivos, win rate 85%+</div>Presente todos os dias da semana, −R$ 3.508. Implementar stake diário máximo com urgência.</div>
-        <div class="alert ar"><div class="atitle">Grupo CB Málaga — stake idêntico R$ 112,59 em prop de jogador (29/04)</div>5 contas: MERCEDITE (119179), OLONCIO (119178), Maria (118088), Maria (118138), FELIPE (118075). Bloquear props de jogadores para esses IDs.</div>
-        <div class="alert ar"><div class="atitle">Grupo freebets coordenadas no draw — 3 ocorrências na semana</div>Inter Miami (26/04), Southampton (28/04), Cerro × Palmeiras (29/04). Limitar odd máxima de freebets para 2.50 imediatamente.</div>
-        <div class="alert ay"><div class="atitle">NEMESIO (113639) — sharp eSoccer, 3 dias na semana</div>Especializado em eSoccer com odds 3–6x. Monitorar odds máximas no eSoccer.</div>
-        <div class="alert ay"><div class="atitle">RENAN (63824) — stakes altos em ligas asiáticas</div>Aposta de R$ 2.000 em odd 16x em Al Nassr (29/04). Mesmo perfil de ISMAEL.</div>
-        <div class="alert ay"><div class="atitle">SERGIO (60767) — retorno 8,5x, win rate 8% em 13 apostas (29/04)</div>R$ 3 apostados em odd 779, recebeu R$ 228. Sharp em odds muito altas.</div>
+        <div class="alert ar"><div class="atitle">NADIM (86787) — sharp confirmado, −R$ 5.103 em 5 dias de apostas</div>82% win rate, R$41K de stake, especialista em over/under de ligas menores. Ação urgente: limite máx. R$500/aposta ou suspender mercados over/under.</div>
+        <div class="alert ar"><div class="atitle">RAFAEL (102415) — novo alerta, eventos Tennis com nomes genéricos</div>Dois eventos "Lajal" e "Bu" com stakes R$1.200–1.400, odd 2.00, ambos vencedores. Verificar histórico e origem dos eventos.</div>
+        <div class="alert ay"><div class="atitle">AARON (3548) — hoje −R$ 1.005 em Valorant e CS2</div>Historicamente lucrativo (+R$64.612) mas monitorar apostas em e-sports. No geral é recreativo.</div>
+        <div class="alert ag"><div class="atitle">✅ ANDREY (62599) — +R$ 6.965 acumulado, 32% margem para a casa</div>Um dos apostadores mais rentáveis. Não tomar nenhuma ação.</div>
+        <div class="alert ag"><div class="atitle">✅ AARON, SERGIO, DANILO, NEMESIO, RENAN — confirmados seguros no histórico</div>Todos positivos ou neutros no acumulado. Apenas NADIM e RAFAEL requerem ação imediata.</div>
       </div>
     </div>
   </div>
@@ -693,14 +693,162 @@ tfoot td{border-top:1px solid #2e3344;font-weight:600;background:var(--bg3)}
     </div>
   </div>
 
-  <div style="text-align:center;padding:20px 0 8px;font-size:11px;color:var(--text3);font-family:monospace">APOSTEFACIL.BET · CONTROLE DE RISCO · 26–30/04/2026 · GERADO VIA CLAUDE</div>
+
+  <!-- 01/05 -->
+  <div id="view-d01" class="mview">
+    <div style="margin-bottom:16px"><div style="font-size:16px;font-weight:600">01/05/2026</div><div style="font-size:12px;color:var(--text2);margin-top:2px">628 apostas · 164 usuários únicos · settle_date −3h</div></div>
+    <div class="kgrid">
+      <div class="kpi"><div class="klabel">Total apostado</div><div class="kval mono">R$ 71.999</div></div>
+      <div class="kpi"><div class="klabel">Total pago</div><div class="kval mono">R$ 68.738</div></div>
+      <div class="kpi"><div class="klabel">Resultado</div><div class="kval pos">+R$ 3.261</div></div>
+      <div class="kpi"><div class="klabel">Margem</div><div class="kval pos">4,5%</div></div>
+      <div class="kpi"><div class="klabel">Usuários únicos</div><div class="kval mono">164</div></div>
+      <div class="kpi"><div class="klabel">Won/Lost/CO</div><div class="kval mono" style="font-size:15px">203/391/33</div></div>
+    </div>
+    <div class="section">
+      <div class="tabs">
+        <button class="tab active" onclick="st('01g','01',this)">Geral</button>
+        <button class="tab" onclick="st('01u','01',this)">Top 10 Usuários</button>
+        <button class="tab" onclick="st('01e','01',this)">Top 10 Eventos</button>
+        <button class="tab" onclick="st('01h','01',this)">Histórico monitorados</button>
+        <button class="tab" onclick="st('01a','01',this)">Alertas</button>
+      </div>
+      <div id="p01g" class="pane active">
+        <div class="insight" style="border-color:var(--yellow);background:var(--yellow-bg);color:#f5d080;margin-bottom:14px"><strong>Dia positivo com alertas críticos.</strong> Tennis +R$ 5.022 (39,5%). Valorant −105% (−R$ 2.057). NADIM sharp confirmado com 82% de win rate em 5 dias.</div>
+        <table><thead><tr><th>Esporte</th><th class="r">Apostas</th><th class="r">Usuários</th><th class="r">Stake</th><th class="r">Pago</th><th class="r">Resultado</th><th class="r">Margem</th></tr></thead>
+        <tbody>
+          <tr><td>Valorant</td><td class="r">11</td><td class="r">2</td><td class="r">R$ 1.954</td><td class="r">R$ 4.011</td><td class="r neg">−R$ 2.057</td><td class="r neg">−105,3%</td></tr>
+          <tr><td>eSoccer</td><td class="r">51</td><td class="r">5</td><td class="r">R$ 1.618</td><td class="r">R$ 2.340</td><td class="r neg">−R$ 723</td><td class="r neg">−44,7%</td></tr>
+          <tr><td>Volleyball</td><td class="r">4</td><td class="r">1</td><td class="r">R$ 737</td><td class="r">R$ 1.010</td><td class="r neg">−R$ 272</td><td class="r neg">−36,9%</td></tr>
+          <tr><td>Basketball</td><td class="r">45</td><td class="r">19</td><td class="r">R$ 4.866</td><td class="r">R$ 5.635</td><td class="r neg">−R$ 770</td><td class="r neg">−15,8%</td></tr>
+          <tr><td>Soccer</td><td class="r">365</td><td class="r">131</td><td class="r">R$ 38.569</td><td class="r">R$ 37.852</td><td class="r pos">+R$ 716</td><td class="r pos">1,9%</td></tr>
+          <tr><td>Counter-Strike</td><td class="r">42</td><td class="r">8</td><td class="r">R$ 9.675</td><td class="r">R$ 8.767</td><td class="r pos">+R$ 908</td><td class="r pos">9,4%</td></tr>
+          <tr><td style="font-weight:600">Tennis</td><td class="r" style="font-weight:600">82</td><td class="r" style="font-weight:600">12</td><td class="r" style="font-weight:600">R$ 12.728</td><td class="r" style="font-weight:600">R$ 7.706</td><td class="r pos">+R$ 5.022</td><td class="r pos">39,5%</td></tr>
+        </tbody>
+        <tfoot><tr><td>Total</td><td class="r">628</td><td class="r">164</td><td class="r">R$ 71.999</td><td class="r">R$ 68.738</td><td class="r pos">+R$ 3.261</td><td class="r pos">4,5%</td></tr></tfoot></table>
+      </div>
+      <div id="p01u" class="pane">
+        <table><thead><tr><th>#</th><th>ext_player_id</th><th>Usuário</th><th class="r">Apostas</th><th class="r">Stake</th><th class="r">Pago</th><th class="r">Resultado</th><th class="r">Win%</th><th class="r">Retorno</th><th>Perfil</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td class="mono muted">86787</td><td style="font-weight:600">NADIM</td><td class="r">10</td><td class="r">R$ 13.195</td><td class="r">R$ 15.960</td><td class="r neg">−R$ 2.765</td><td class="r">100%</td><td class="r">1.2x</td><td><span class="badge br">Sharp confirmado</span></td></tr>
+          <tr><td>2</td><td class="mono muted">30171</td><td style="font-weight:600">VINICIUS</td><td class="r">19</td><td class="r">R$ 884</td><td class="r">R$ 1.435</td><td class="r neg">−R$ 551</td><td class="r">42%</td><td class="r">1.6x</td><td><span class="badge by">Monitorar</span></td></tr>
+          <tr><td>3</td><td class="mono muted">67360</td><td style="font-weight:600">CHARLES</td><td class="r">5</td><td class="r">R$ 140</td><td class="r">R$ 596</td><td class="r neg">−R$ 456</td><td class="r">0%</td><td class="r neg">4.3x</td><td><span class="badge br">Cashed out vencedor</span></td></tr>
+          <tr><td>4</td><td class="mono muted">119050</td><td style="font-weight:600">FELIPE</td><td class="r">1</td><td class="r">R$ 574</td><td class="r">R$ 867</td><td class="r neg">−R$ 293</td><td class="r">100%</td><td class="r">1.5x</td><td><span class="badge by">100% win</span></td></tr>
+          <tr><td>5</td><td class="mono muted">63824</td><td style="font-weight:600">RENAN</td><td class="r">9</td><td class="r">R$ 6.676</td><td class="r">R$ 6.861</td><td class="r neg">−R$ 185</td><td class="r">33%</td><td class="r">1.0x</td><td><span class="badge by">Alto volume</span></td></tr>
+          <tr><td>6</td><td class="mono muted">67187</td><td style="font-weight:600">ITALO</td><td class="r">1</td><td class="r">R$ 30</td><td class="r">R$ 194</td><td class="r neg">−R$ 164</td><td class="r">100%</td><td class="r neg">6.5x</td><td><span class="badge br">Sharp odd alta</span></td></tr>
+          <tr><td>7</td><td class="mono muted">57332</td><td style="font-weight:600">MARIA</td><td class="r">1</td><td class="r">R$ 30</td><td class="r">R$ 194</td><td class="r neg">−R$ 164</td><td class="r">100%</td><td class="r neg">6.5x</td><td><span class="badge br">Sharp odd alta</span></td></tr>
+          <tr><td>8</td><td class="mono muted">119174</td><td style="font-weight:600">DANIELA</td><td class="r">1</td><td class="r">R$ 272</td><td class="r">R$ 411</td><td class="r neg">−R$ 139</td><td class="r">100%</td><td class="r">1.5x</td><td><span class="badge by">100% win</span></td></tr>
+          <tr><td>9</td><td class="mono muted">62599</td><td style="font-weight:600">ANDREY</td><td class="r">4</td><td class="r">R$ 166</td><td class="r">R$ 291</td><td class="r neg">−R$ 125</td><td class="r">50%</td><td class="r">1.8x</td><td><span class="badge by">Monitorar</span></td></tr>
+          <tr><td>10</td><td class="mono muted">63827</td><td style="font-weight:600">CAIO</td><td class="r">1</td><td class="r">R$ 100</td><td class="r">R$ 208</td><td class="r neg">−R$ 108</td><td class="r">100%</td><td class="r">2.1x</td><td><span class="badge by">100% win</span></td></tr>
+        </tbody></table>
+        <div style="padding:8px 0;font-size:11px;color:var(--green)">✅ AARON: +R$ 248 para a casa · ✅ DANILO: +R$ 411 · ✅ SERGIO: +R$ 42</div>
+      </div>
+      <div id="p01e" class="pane" style="padding:0">
+        <div class="ev-item"><div class="ev-hdr" onclick="te(this)"><div><div class="ev-name">Minnesota Timberwolves × Denver Nuggets</div><div class="ev-meta">#1 · 6 apostas · NBA</div></div><div style="display:flex;align-items:center;gap:8px"><div><div class="ev-res neg">−R$ 2.040</div><div class="ev-sk">Stake R$ 1.547 · Pago R$ 3.587</div></div><div class="ev-ch">▼</div></div></div>
+        <div class="ev-body"><table><thead><tr><th>ext_player_id</th><th>Usuário</th><th>Outcome</th><th class="r">Odd</th><th class="r">Stake</th><th class="r">Resultado</th><th>Status</th></tr></thead><tbody>
+          <tr class="won-row"><td class="mono">102415</td><td>RAFAEL</td><td>Minnesota Timberwolves</td><td class="r">4.00</td><td class="r">R$ 500</td><td class="r neg">−R$ 1.500</td><td><span class="badge br">won</span></td></tr>
+          <tr class="won-row"><td class="mono">119050</td><td>FELIPE</td><td>Rudy Gobert 8+</td><td class="r">2.00</td><td class="r">R$ 574</td><td class="r neg">−R$ 293</td><td><span class="badge br">won</span></td></tr>
+          <tr class="won-row"><td class="mono">61769</td><td>DIEGO</td><td>Minnesota Timberwolves</td><td class="r">3.00</td><td class="r">R$ 100</td><td class="r neg">−R$ 210</td><td><span class="badge br">won</span></td></tr>
+          <tr class="won-row"><td class="mono">119174</td><td>DANIELA</td><td>Rudy Gobert 8+</td><td class="r">2.00</td><td class="r">R$ 272</td><td class="r neg">−R$ 139</td><td><span class="badge br">won</span></td></tr>
+        </tbody></table></div></div>
+        <div class="ev-item"><div class="ev-hdr" onclick="te(this)"><div><div class="ev-name">Libertad Loja × SD Aucas</div><div class="ev-meta">#2 · 7 apostas · Libertadores Sul · NADIM</div></div><div style="display:flex;align-items:center;gap:8px"><div><div class="ev-res neg">−R$ 1.326</div><div class="ev-sk">Stake R$ 5.925 · Pago R$ 7.251</div></div><div class="ev-ch">▼</div></div></div>
+        <div class="ev-body"><table><thead><tr><th>ext_player_id</th><th>Usuário</th><th>Outcome</th><th class="r">Odd</th><th class="r">Stake</th><th class="r">Resultado</th><th>Status</th></tr></thead><tbody>
+          <tr class="won-row"><td class="mono">86787</td><td>NADIM</td><td>over 2.5</td><td class="r">1.22</td><td class="r">R$ 2.395</td><td class="r neg">−R$ 527</td><td><span class="badge br">won</span></td></tr>
+          <tr class="won-row"><td class="mono">86787</td><td>NADIM</td><td>over 1.5</td><td class="r">1.22</td><td class="r">R$ 2.360</td><td class="r neg">−R$ 519</td><td><span class="badge br">won</span></td></tr>
+          <tr class="won-row"><td class="mono">63824</td><td>RENAN</td><td>yes</td><td class="r">1.45</td><td class="r">R$ 1.000</td><td class="r neg">−R$ 450</td><td><span class="badge br">won</span></td></tr>
+        </tbody></table></div></div>
+        <div class="ev-item"><div class="ev-hdr" onclick="te(this)"><div><div class="ev-name">Lajal (Tennis)</div><div class="ev-meta">#3 · 1 aposta · Tennis · RAFAEL — evento suspeito</div></div><div style="display:flex;align-items:center;gap:8px"><div><div class="ev-res neg">−R$ 1.162</div><div class="ev-sk">Stake R$ 1.263 · Pago R$ 2.425</div></div><div class="ev-ch">▼</div></div></div>
+        <div class="ev-body"><table><thead><tr><th>ext_player_id</th><th>Usuário</th><th>Outcome</th><th class="r">Odd</th><th class="r">Stake</th><th class="r">Resultado</th><th>Status</th></tr></thead><tbody>
+          <tr class="won-row"><td class="mono">102415</td><td>RAFAEL</td><td>Sun</td><td class="r">2.00</td><td class="r">R$ 1.263</td><td class="r neg">−R$ 1.162</td><td><span class="badge br">won</span></td></tr>
+        </tbody></table></div></div>
+        <div class="ev-item"><div class="ev-hdr" onclick="te(this)"><div><div class="ev-name">Bu (Tennis)</div><div class="ev-meta">#4 · 1 aposta · Tennis · RAFAEL — evento suspeito</div></div><div style="display:flex;align-items:center;gap:8px"><div><div class="ev-res neg">−R$ 1.160</div><div class="ev-sk">Stake R$ 1.415 · Pago R$ 2.575</div></div><div class="ev-ch">▼</div></div></div>
+        <div class="ev-body"><table><thead><tr><th>ext_player_id</th><th>Usuário</th><th>Outcome</th><th class="r">Odd</th><th class="r">Stake</th><th class="r">Resultado</th><th>Status</th></tr></thead><tbody>
+          <tr class="won-row"><td class="mono">102415</td><td>RAFAEL</td><td>Wong</td><td class="r">2.00</td><td class="r">R$ 1.415</td><td class="r neg">−R$ 1.160</td><td><span class="badge br">won</span></td></tr>
+        </tbody></table></div></div>
+        <div class="ev-item"><div class="ev-hdr" onclick="te(this)"><div><div class="ev-name">Gentle Mates × Team Liquid</div><div class="ev-meta">#5 · 4 apostas · Valorant · AARON</div></div><div style="display:flex;align-items:center;gap:8px"><div><div class="ev-res neg">−R$ 906</div><div class="ev-sk">Stake R$ 719 · Pago R$ 1.624</div></div><div class="ev-ch">▼</div></div></div>
+        <div class="ev-body"><table><thead><tr><th>ext_player_id</th><th>Usuário</th><th>Outcome</th><th class="r">Odd</th><th class="r">Stake</th><th class="r">Resultado</th><th>Status</th></tr></thead><tbody>
+          <tr class="won-row"><td class="mono">3548</td><td>AARON</td><td>over 20.5</td><td class="r">2.64</td><td class="r">R$ 300</td><td class="r neg">−R$ 491</td><td><span class="badge br">won</span></td></tr>
+          <tr class="won-row"><td class="mono">3548</td><td>AARON</td><td>Team Liquid</td><td class="r">4.19</td><td class="r">R$ 100</td><td class="r neg">−R$ 319</td><td><span class="badge br">won</span></td></tr>
+          <tr class="won-row"><td class="mono">3548</td><td>AARON</td><td>over 19.5</td><td class="r">2.00</td><td class="r">R$ 219</td><td class="r neg">−R$ 197</td><td><span class="badge br">won</span></td></tr>
+          <tr><td class="mono">3548</td><td>AARON</td><td>Team Liquid</td><td class="r">17.00</td><td class="r">R$ 100</td><td class="r pos">+R$ 100</td><td><span class="badge bg">lost</span></td></tr>
+        </tbody></table></div></div>
+        <div class="ev-item"><div class="ev-hdr" onclick="te(this)"><div><div class="ev-name">Pisa SC × US Lecce</div><div class="ev-meta">#6 · 26 apostas · Serie B · RENAN R$3.000</div></div><div style="display:flex;align-items:center;gap:8px"><div><div class="ev-res neg">−R$ 831</div><div class="ev-sk">Stake R$ 3.525 · Pago R$ 4.356</div></div><div class="ev-ch">▼</div></div></div>
+        <div class="ev-body"><table><thead><tr><th>ext_player_id</th><th>Usuário</th><th>Outcome</th><th class="r">Odd</th><th class="r">Stake</th><th class="r">Resultado</th><th>Status</th></tr></thead><tbody>
+          <tr class="won-row"><td class="mono">63824</td><td>RENAN</td><td>draw or US Lecce</td><td class="r">1.30</td><td class="r">R$ 3.000</td><td class="r neg">−R$ 900</td><td><span class="badge br">won</span></td></tr>
+          <tr class="won-row"><td class="mono">114072</td><td>FABIO</td><td>over 2.5</td><td class="r">2.00</td><td class="r">R$ 220</td><td class="r neg">−R$ 121</td><td><span class="badge br">won</span></td></tr>
+        </tbody></table></div></div>
+        <div class="ev-item"><div class="ev-hdr" onclick="te(this)"><div><div class="ev-name">Fnatic × Lavked</div><div class="ev-meta">#7 · 3 apostas · CS2 · AARON</div></div><div style="display:flex;align-items:center;gap:8px"><div><div class="ev-res neg">−R$ 643</div><div class="ev-sk">Stake R$ 913 · Pago R$ 1.557</div></div><div class="ev-ch">▼</div></div></div>
+        <div class="ev-body"><table><thead><tr><th>ext_player_id</th><th>Usuário</th><th>Outcome</th><th class="r">Odd</th><th class="r">Stake</th><th class="r">Resultado</th><th>Status</th></tr></thead><tbody>
+          <tr class="won-row"><td class="mono">3548</td><td>AARON</td><td>over 21.5</td><td class="r">4.00</td><td class="r">R$ 215</td><td class="r neg">−R$ 680</td><td><span class="badge br">won</span></td></tr>
+          <tr class="won-row"><td class="mono">3548</td><td>AARON</td><td>Fnatic</td><td class="r">2.00</td><td class="r">R$ 396</td><td class="r neg">−R$ 265</td><td><span class="badge br">won</span></td></tr>
+        </tbody></table></div></div>
+        <div class="ev-item"><div class="ev-hdr" onclick="te(this)"><div><div class="ev-name">CR Vasco × Club Olimpia</div><div class="ev-meta">#8 · 2 apostas · Sul-Americana · CHARLES cashed out</div></div><div style="display:flex;align-items:center;gap:8px"><div><div class="ev-res neg">−R$ 545</div><div class="ev-sk">Stake R$ 51 · Pago R$ 596</div></div><div class="ev-ch">▼</div></div></div>
+        <div class="ev-body"><table><thead><tr><th>ext_player_id</th><th>Usuário</th><th>Outcome</th><th class="r">Odd</th><th class="r">Stake</th><th class="r">Resultado</th><th>Status</th></tr></thead><tbody>
+          <tr class="won-row"><td class="mono">67360</td><td>CHARLES</td><td>CR Vasco da Gama RJ</td><td class="r">141.69</td><td class="r">R$ 50</td><td class="r neg">−R$ 546</td><td><span class="badge by">cashed out ⚠️</span></td></tr>
+        </tbody></table></div></div>
+        <div class="ev-item"><div class="ev-hdr" onclick="te(this)"><div><div class="ev-name">Evil Geniuses × NRG Esports</div><div class="ev-meta">#9 · 1 aposta · Valorant · AARON odd 35x</div></div><div style="display:flex;align-items:center;gap:8px"><div><div class="ev-res neg">−R$ 515</div><div class="ev-sk">Stake R$ 200 · Pago R$ 715</div></div><div class="ev-ch">▼</div></div></div>
+        <div class="ev-body"><table><thead><tr><th>ext_player_id</th><th>Usuário</th><th>Outcome</th><th class="r">Odd</th><th class="r">Stake</th><th class="r">Resultado</th><th>Status</th></tr></thead><tbody>
+          <tr class="won-row"><td class="mono">3548</td><td>AARON</td><td>over 20.5</td><td class="r">35.74</td><td class="r">R$ 200</td><td class="r neg">−R$ 515</td><td><span class="badge br">won</span></td></tr>
+        </tbody></table></div></div>
+        <div class="ev-item"><div class="ev-hdr" onclick="te(this)"><div><div class="ev-name">Leeds United × Burnley FC</div><div class="ev-meta">#10 · 39 apostas · Championship · NADIM</div></div><div style="display:flex;align-items:center;gap:8px"><div><div class="ev-res neg">−R$ 433</div><div class="ev-sk">Stake R$ 6.424 · Pago R$ 6.857</div></div><div class="ev-ch">▼</div></div></div>
+        <div class="ev-body"><table><thead><tr><th>ext_player_id</th><th>Usuário</th><th>Outcome</th><th class="r">Odd</th><th class="r">Stake</th><th class="r">Resultado</th><th>Status</th></tr></thead><tbody>
+          <tr class="won-row"><td class="mono">86787</td><td>NADIM</td><td>over 2.5</td><td class="r">1.27</td><td class="r">R$ 2.440</td><td class="r neg">−R$ 659</td><td><span class="badge br">won</span></td></tr>
+          <tr class="won-row"><td class="mono">86787</td><td>NADIM</td><td>over 1.5</td><td class="r">1.22</td><td class="r">R$ 2.000</td><td class="r neg">−R$ 440</td><td><span class="badge br">won</span></td></tr>
+          <tr class="won-row"><td class="mono">63194</td><td>JOSE</td><td>over 7.5</td><td class="r">2.00</td><td class="r">R$ 137</td><td class="r neg">−R$ 92</td><td><span class="badge br">won</span></td></tr>
+        </tbody></table></div></div>
+      </div>
+      <div id="p01h" class="pane">
+        <div style="border:1px solid var(--border);border-radius:10px;padding:14px;margin-bottom:12px">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:10px"><div><span style="font-weight:600">NADIM</span> <span class="mono muted" style="font-size:12px">86787</span></div><span class="badge br">Sharp confirmado — restringir urgente</span></div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:8px;margin-bottom:10px">
+            <div style="background:var(--bg3);padding:8px;border-radius:8px;text-align:center"><div style="font-size:11px;color:var(--text2)">Total apostas</div><div style="font-weight:600;font-family:monospace">22</div></div>
+            <div style="background:var(--bg3);padding:8px;border-radius:8px;text-align:center"><div style="font-size:11px;color:var(--text2)">Stake total</div><div style="font-weight:600;font-family:monospace">R$ 41.334</div></div>
+            <div style="background:var(--bg3);padding:8px;border-radius:8px;text-align:center"><div style="font-size:11px;color:var(--text2)">Resultado casa</div><div class="neg" style="font-weight:600;font-family:monospace">−R$ 5.103</div></div>
+            <div style="background:var(--bg3);padding:8px;border-radius:8px;text-align:center"><div style="font-size:11px;color:var(--text2)">Win rate</div><div style="font-weight:600;font-family:monospace">82%</div></div>
+            <div style="background:var(--bg3);padding:8px;border-radius:8px;text-align:center"><div style="font-size:11px;color:var(--text2)">Ativo desde</div><div style="font-weight:600;font-family:monospace">16/04/2026</div></div>
+          </div>
+          <div class="alert ar"><div class="atitle">Veredito: sharp confirmado</div>82% win rate, stakes R$2K–6K em over/under de ligas menores. <strong>Ação urgente: limite máx. R$500/aposta ou suspender over/under para este ID.</strong></div>
+        </div>
+        <div style="border:1px solid var(--border);border-radius:10px;padding:14px;margin-bottom:12px">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:10px"><div><span style="font-weight:600">ANDREY</span> <span class="mono muted" style="font-size:12px">62599</span></div><span class="badge bg">Muito lucrativo — não tomar ação</span></div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:8px;margin-bottom:10px">
+            <div style="background:var(--bg3);padding:8px;border-radius:8px;text-align:center"><div style="font-size:11px;color:var(--text2)">Total apostas</div><div style="font-weight:600;font-family:monospace">228</div></div>
+            <div style="background:var(--bg3);padding:8px;border-radius:8px;text-align:center"><div style="font-size:11px;color:var(--text2)">Resultado casa</div><div class="pos" style="font-weight:600;font-family:monospace">+R$ 6.965</div></div>
+            <div style="background:var(--bg3);padding:8px;border-radius:8px;text-align:center"><div style="font-size:11px;color:var(--text2)">Win rate</div><div style="font-weight:600;font-family:monospace">14%</div></div>
+            <div style="background:var(--bg3);padding:8px;border-radius:8px;text-align:center"><div style="font-size:11px;color:var(--text2)">Margem casa</div><div class="pos" style="font-weight:600;font-family:monospace">32%</div></div>
+          </div>
+          <div class="alert ag"><div class="atitle">Veredito: um dos mais rentáveis da plataforma</div>228 apostas, +R$6.965, 32% de margem. Não tomar nenhuma ação.</div>
+        </div>
+        <div style="border:1px solid var(--border);border-radius:10px;padding:14px">
+          <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:10px"><div><span style="font-weight:600">RENAN</span> <span class="mono muted" style="font-size:12px">63824</span></div><span class="badge by">Neutro — monitorar stake</span></div>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:8px;margin-bottom:10px">
+            <div style="background:var(--bg3);padding:8px;border-radius:8px;text-align:center"><div style="font-size:11px;color:var(--text2)">Stake total</div><div style="font-weight:600;font-family:monospace">R$ 71.842</div></div>
+            <div style="background:var(--bg3);padding:8px;border-radius:8px;text-align:center"><div style="font-size:11px;color:var(--text2)">Resultado casa</div><div class="pos" style="font-weight:600;font-family:monospace">+R$ 390</div></div>
+            <div style="background:var(--bg3);padding:8px;border-radius:8px;text-align:center"><div style="font-size:11px;color:var(--text2)">Win rate</div><div style="font-weight:600;font-family:monospace">43%</div></div>
+            <div style="background:var(--bg3);padding:8px;border-radius:8px;text-align:center"><div style="font-size:11px;color:var(--text2)">Margem casa</div><div style="font-weight:600;font-family:monospace">0,5%</div></div>
+          </div>
+          <div class="alert ay"><div class="atitle">Veredito: alto volume, resultado neutro</div>R$71K apostados, 0,5% de margem. Monitorar apostas acima de R$3.000 em eventos únicos.</div>
+        </div>
+      </div>
+      <div id="p01a" class="pane">
+        <div class="alert ar"><div class="atitle">🔴 NADIM (86787) — sharp confirmado, −R$ 5.103 em 5 dias</div>82% win rate, stakes R$2K–6K em over/under de ligas menores. <strong>Ação urgente: limite máx. R$500/aposta ou suspender mercados over/under.</strong></div>
+        <div class="alert ar"><div class="atitle">🔴 RAFAEL (102415) — eventos Tennis suspeitos ("Lajal", "Bu")</div>Stakes R$1.200–1.400, odd 2.00, ambos vencedores. Verificar histórico e origem dos eventos.</div>
+        <div class="alert ay"><div class="atitle">⚠️ AARON (3548) — −R$ 1.005 em Valorant e CS2 hoje</div>Historicamente lucrativo (+R$64.612) mas monitorar e-sports.</div>
+        <div class="alert ay"><div class="atitle">⚠️ Valorant com −105% de margem</div>2 usuários, −R$2.057. Revisar precificação de kills/rounds em Valorant.</div>
+        <div class="alert ag"><div class="atitle">✅ ANDREY (+R$6.965) · SERGIO (+R$1.224) · AARON (+R$64.612) — lucrativos para a casa</div>Confirmados no histórico. Não tomar nenhuma ação.</div>
+        <div class="alert ag"><div class="atitle">✅ Saldo acumulado: +R$ 14.419 (6 dias)</div>26/04: −R$8.433 · 27/04: +R$2.708 · 28/04: +R$11.161 · 29/04: +R$3.150 · 30/04: +R$2.572 · 01/05: +R$3.261</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align:center;padding:20px 0 8px;font-size:11px;color:var(--text3);font-family:monospace">APOSTEFACIL.BET · CONTROLE DE RISCO · 26/04–01/05/2026 · GERADO VIA CLAUDE</div>
 </div>
 
 <script>
 function showView(id,btn){document.querySelectorAll('.mview').forEach(v=>v.classList.remove('active'));document.querySelectorAll('.mbtn').forEach(b=>b.classList.remove('active'));document.getElementById('view-'+id).classList.add('active');btn.classList.add('active')}
 function st(pid,day,btn){document.querySelectorAll('#view-d'+day+' .pane').forEach(p=>p.classList.remove('active'));document.querySelectorAll('#view-d'+day+' .tab').forEach(t=>t.classList.remove('active'));document.getElementById('p'+pid).classList.add('active');btn.classList.add('active')}
 function te(h){h.nextElementSibling.classList.toggle('open');h.classList.toggle('open')}
-const dias=['26/04','27/04','28/04','29/04'],res=[-8433,2708,11161,3150],acum=[-8433,-5725,5436,8586],marg=[-7.3,4.4,19.1,6.5];
+const dias=['26/04','27/04','28/04','29/04','30/04','01/05'],res=[-8433,2708,11161,3150,2572,3261],acum=[-8433,-5725,5436,8586,11158,14419],marg=[-7.3,4.4,19.1,6.5,4.4,4.5];
 new Chart(document.getElementById('cS'),{data:{labels:dias,datasets:[{type:'bar',data:res,backgroundColor:res.map(v=>v>=0?'#3dd68c':'#E24B4A'),borderRadius:4,yAxisID:'y'},{type:'line',data:acum,borderColor:'#60a5fa',backgroundColor:'transparent',borderWidth:2,pointRadius:4,pointBackgroundColor:'#60a5fa',tension:0.3,yAxisID:'y'}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{ticks:{callback:v=>'R$'+(v/1000).toFixed(0)+'k'},grid:{color:'rgba(128,128,128,0.1)'}},x:{ticks:{autoSkip:false}}}}});
 new Chart(document.getElementById('cM'),{type:'bar',data:{labels:dias,datasets:[{data:marg,backgroundColor:marg.map(v=>v>=0?'#60a5fa':'#E24B4A'),borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{ticks:{callback:v=>v+'%'},grid:{color:'rgba(128,128,128,0.1)'}},x:{ticks:{autoSkip:false}}}}});
 const esp=['Soccer','Tennis','Basketball','CS2','Table Tennis','eSoccer','Volleyball','Outros'],resEsp=[5283,3376,2914,1251,735,-396,-360,-217];
